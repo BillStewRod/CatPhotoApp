@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>CatPhotApp</title>
-    <meta name="description" content="A gallery of adorable cat photos.">
+    <meta charset="utf-8" name="description" content="A gallery of adorable cat photos.">
     <!-- Add your CSS file -->
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -52,15 +52,9 @@
         </fieldset>
         <fieldset>
             <legend>What's your cat's personality?</legend>
-            <label for="loving">
-                <input id="loving" type="checkbox" name="personality">Loving
-            </label>
-            <label for="lazy">
-                <input id="lazy" type="checkbox" name="personality">Lazy
-            </label>
-            <label for="energetic">
-                <input id="energetic" type="checkbox" name="personality">Energetic
-            </label>
+            <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving"> Loving</label>
+            <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
+            <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label>
         </fieldset>
             <input type="text" placeholder="cat photo URL" required>
             <button type="submit">Submit</button>
@@ -88,4 +82,9 @@
         </figure>    
     </section>
 </main>
+<footer>
+    <p>
+      No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+    </p>
+  </footer>
 </html>
