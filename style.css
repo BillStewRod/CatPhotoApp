@@ -24,6 +24,16 @@ h2 {
     text-align: center;
 }
 
+.figure-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.figure-container img {
+    max-width: 100%;
+    height: auto;
+}
+
 figcaption {
     color: #ff0040;
     text-align: center;
