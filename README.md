@@ -1,4 +1,4 @@
-#Cat Photo App
+# Cat Photo App
 
 [![pages-build-deployment](https://github.com/BillStewRod/CatPhotoApp/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/BillStewRod/CatPhotoApp/actions/workflows/pages/pages-build-deployment)
 
